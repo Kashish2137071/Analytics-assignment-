@@ -1,0 +1,2 @@
+SELECT count(capital_gain), sex as Gender 
+FROM bigquery-public-data.ml_datasets.census_adult_income group by sex
