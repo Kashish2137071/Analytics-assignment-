@@ -1,0 +1,3 @@
+SELECT AVG(hours_per_week) 
+FROM bigquery-public-data.ml_datasets.census_adult_income 
+where age > 40 LIMIT 1000
