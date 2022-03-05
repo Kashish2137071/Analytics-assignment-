@@ -1,0 +1,3 @@
+SELECT * 
+FROM bigquery-public-data.ml_datasets.census_adult_income 
+where functional_weight > 20000 or capital_gain > 1000 LIMIT 100
