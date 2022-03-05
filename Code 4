@@ -1,0 +1,3 @@
+SELECT age as Age, functional_weight as FW,capital_gain as CG, hours_per_week as HRW, capital_loss as CL 
+FROM bigquery-public-data.ml_datasets.census_adult_income 
+where education_num > 5 and age > 30 order by age LIMIT 10
